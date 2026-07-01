@@ -1,0 +1,66 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.btn-primary { background: #6366f1; color: white; }
+.btn-primary:hover { background: #4f46e5; }
+.btn-danger { background: #ef4444; color: white; }
+.btn-danger:hover { background: #dc2626; }
+.btn-success { background: #22c55e; color: white; }
+.btn-outline { background: white; color: #6366f1; border: 1.5px solid #6366f1; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.badge {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.badge-open { background: #fee2e2; color: #dc2626; }
+.badge-inprogress { background: #fef3c7; color: #d97706; }
+.badge-resolved { background: #dcfce7; color: #16a34a; }
+.badge-overdue { background: #fce7f3; color: #be185d; }
+.badge-low { background: #e0f2fe; color: #0284c7; }
+.badge-medium { background: #fef9c3; color: #ca8a04; }
+.badge-high { background: #ffe4e6; color: #e11d48; }
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s;
+}
+input:focus, select:focus, textarea:focus { border-color: #6366f1; }
+
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; margin-bottom: 6px; font-size: 13px; font-weight: 600; color: #475569; }
+
+.error { background: #fee2e2; color: #dc2626; padding: 10px 14px; border-radius: 8px; font-size: 14px; margin-bottom: 12px; }
+.success { background: #dcfce7; color: #16a34a; padding: 10px 14px; border-radius: 8px; font-size: 14px; margin-bottom: 12px; }
+
+.loading { text-align: center; padding: 40px; color: #94a3b8; }
+.empty { text-align: center; padding: 60px 20px; color: #94a3b8; }
+.empty h3 { font-size: 18px; margin-bottom: 8px; }
