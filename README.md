@@ -4,7 +4,7 @@ A complete platform for apartment societies to manage maintenance complaints, wi
 
 ---
 
-## 📖 START HERE — Step by Step Guide (for beginners)
+## 📖 START HERE — Step by Step Guide
 
 Follow these steps **in order**. Don't skip any step.
 
