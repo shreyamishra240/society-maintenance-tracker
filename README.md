@@ -1,4 +1,13 @@
 # 🏠 Society Maintenance Tracker
+## 🔑 Demo Login Credentials
+
+**Admin Login:**
+- Email: admin@society.com
+- Password: password
+
+**Live URL:** https://society-maintenance-tracker-five.vercel.app
+
+---
 
 A complete platform for apartment societies to manage maintenance complaints, with photo uploads, status tracking, an admin dashboard, a notice board, and automatic email notifications.
 
